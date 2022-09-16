@@ -23,7 +23,6 @@
     z-index: 1;
     padding: -1px 20px;
     border-radius: 5px;
-    transition-duration: 0.9s;
     
 }
 .dropnav-contant a {
@@ -45,7 +44,6 @@
     font-weight: 500;
     font-size: 14px;
     margin: -10px -40px;
-    transition-duration: 5s;
 }
 
 .dropnav:hover .dropnav-contant {
@@ -70,6 +68,7 @@
 .navlist{
     display: flex;
     list-style: none;
+    overflow: hidden;
     
 }
 .navlist a{
@@ -437,6 +436,16 @@ footer{
     width: 30px;
     margin: 5px;
 }
+.burgar{
+    cursor: pointer;
+    display: none;
+}
+.line{
+    width: 30px;
+    background-color: white;
+    height: 3px;
+    margin: 5px 0px;
+}
 @media screen and (max-width: 1096px) {
     
     .para p, .para-1 p{
@@ -455,6 +464,7 @@ footer{
         padding: 0px 0px;
     }
 }
+
    
 @media screen and (max-width: 930px) {
     
@@ -475,7 +485,17 @@ footer{
         width: 50%;
         height: auto;
     }
+    .navlist{
+        display: none;
+    }
+    #logo{
+        height: 20px;
+    }
     
+    .burgar{
+        display: block;
+    }
 }
+
 
 
