@@ -448,6 +448,12 @@ footer{
     .containar1, .cont2{
         width: 35%;
     }
+    input[type=text] {
+        width: 200px;
+    }
+    .emailsection {
+        padding: 0px 0px;
+    }
 }
    
 @media screen and (max-width: 930px) {
@@ -469,6 +475,7 @@ footer{
         width: 50%;
         height: auto;
     }
+    
 }
 
 
