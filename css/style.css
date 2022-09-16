@@ -1,0 +1,456 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+.background{
+    background-image: url("../img/front-m7VoJwB28ZFLB9VQ.png");
+    background-size: cover;
+    height: 100vh;
+    background-repeat: no-repeat;
+    
+}
+#logo{
+    height: 25px;
+}
+.dropnav-contant{
+    position: absolute;
+    display: none;
+    background-color: #485342;
+    z-index: 1;
+    padding: -1px 20px;
+    border-radius: 5px;
+    transition-duration: 0.9s;
+    
+}
+.dropnav-contant a {
+  padding: 12px 16px;
+  display: block;
+}
+.dropbtn1{
+    background: none;
+    border: none;
+    color: white;
+    font-weight: 500;
+    font-size: 14px;
+    margin: -10px -40px;
+    transition-duration: 5s;
+}
+.dropbtn1:hover {
+    background: none;
+    border: none;
+    color: white;
+    font-weight: 500;
+    font-size: 14px;
+    margin: -10px -40px;
+    transition-duration: 5s;
+}
+
+.dropnav:hover .dropnav-contant {
+   display: block;
+}
+.dropnav:hover .fa{
+    transform: rotate(180deg);
+}
+
+.dropbtn i{
+    margin-left:10px;
+    transition-duration: 0.4s;
+}
+.navbar{
+    position: fixed;
+    display: flex;
+    justify-content: space-around;
+    height: 100px;
+    align-items: center;
+    width: 100%;
+}
+.navlist{
+    display: flex;
+    list-style: none;
+    
+}
+.navlist a{
+    text-decoration: none;
+    color: white;
+    font-weight: 500;
+    font-size: 14px; 
+    margin: 0px 20px;
+}
+.navlist a:hover {
+    text-decoration: underline;
+    text-underline-offset: 6px;
+}
+.page1{
+    
+    top: 25%;
+    left:15%;
+    position: absolute;
+    overflow: hidden;
+}
+
+.line1 h2{
+    font-family: 'Jacques Francois', serif;  
+    color: white;
+    font-size:48px;
+    font-weight: 400;
+    overflow: hidden;
+}
+.line2 h1{
+    font-family: 'Jacques Francois', serif;  
+    color: white;
+    font-size:112px;
+    font-weight: 400;
+    margin: 15px 0px;
+    overflow: hidden;
+}
+
+.paragraph3 p{
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    color: white;
+    line-height: 1.8;
+    overflow: hidden;
+    
+    
+}
+button{
+    background: none;
+    color: rgb(255, 255, 255);
+    border: 3px solid white;
+    border-radius: 20px;
+    font-size: 14px;
+    font-weight: 600;
+    letter-spacing: 0.22em;
+    width: 200px;
+    height: 40px;
+    margin: 40px 0px;
+    overflow: hidden;
+    cursor: pointer;
+    transition-duration: 0.5s;
+}
+button:hover{
+    color: gray;
+    border: 3px solid #808080;
+}
+.section2{
+    background-color: #c7cec9;
+    display: flex;
+    flex-direction: column;
+}
+
+.section2 h2 {
+    font-family: 'Jacques Francois', serif;  
+    color: #485342;
+    font-size:48px;
+    font-weight: 400;
+    display: flex;
+    justify-content: center;
+    margin-top: 125px;
+    margin-bottom: 25px;
+}
+.section2 h4 {
+    font-family: 'Jacques Francois', serif;  
+    color: #485342;
+    font-size:32px;
+    font-weight: 400;
+    margin-top: 35px;
+}
+.img1, .img2, .img3{
+    display: flex;
+    margin: 40px;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+
+}
+.photos{
+    flex-wrap: wrap;
+    display: flex;
+    flex-direction: row;
+    overflow: hidden;
+    justify-content: center;
+}
+.section3{
+    overflow: hidden;
+    flex-wrap: wrap;
+    width: 100%;
+    display: flex;
+    background-color: #dbe2dd;
+    align-items: center;
+    justify-content: center;
+}
+#front{
+    display: flex;
+}
+.containar1{
+    display: flex;
+    flex-direction: column;
+    margin: 0px 100px;
+    width: 26%;
+}
+
+.containar1 button{
+    color: #485342;
+    border:solid #485342;
+}
+.containar1 h3{
+    font-family: 'Jacques Francois', serif;  
+    color: #485342;
+    font-size:40px;
+    font-weight: 400;
+    text-align: center;
+    
+}
+.para{
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+}
+.para p{
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+    color: #485342;
+    font-weight: 400;
+    line-height: 1.8;
+    
+}
+.section4{
+    display: flex;
+    background-color: #485342;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+#front{
+    display: flex;
+}
+
+.cont2{
+    display: flex;
+    flex-direction: column; 
+    margin: 0px 100px;
+    justify-content: space-between;
+    width: 26%;
+}
+
+.cont2 h3{
+    font-family: 'Jacques Francois', serif;  
+    color: white;
+    font-size:40px;
+    font-weight: 400;
+    text-align: center;
+}
+.para-1{
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+}
+.para-1 p{
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+    color: white;
+    font-weight: 400;
+    line-height: 1.8;
+    text-align: left;
+}
+.section5{
+    display: flex;
+    background-color:#2f3a29;
+    text-align: center;
+    justify-content: center;
+}
+
+.section5 h2{
+    font-family: 'Jacques Francois', serif;  
+    color: #ffffff;
+    font-size:48px;
+    font-weight: 400;
+    justify-content: center;
+}
+.mainheadline{
+    display: flex;
+    flex-direction: column;
+    background-color:#2f3a29;
+    margin: 130px 0px;
+}
+.section5 p{
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    justify-content: center;
+    font-size: 15px;
+    color: white;
+    font-weight: 400;
+    line-height: 1.8;
+}
+.section6{
+    display: flex;
+    background-color: #dbe2dd;
+    flex-direction: column;    
+    justify-content: center;
+}
+.section6 h2{
+    font-family: 'Jacques Francois', serif;  
+    color: #485342;
+    font-size:48px;
+    font-weight: 400;
+    display: flex;
+    margin-top: 125px;
+    margin-bottom: 25px;
+    text-align: center;
+}
+.instagram{
+    display: flex;
+    justify-content: center;
+}
+.photos1{
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: center;
+}
+#img11, #img12, #img13{
+    margin: 40px;
+}
+.mbtn1{
+    display: flex;
+    justify-content: center;
+    
+}
+.mbtn1 button{ 
+    color: #485342;
+    border: solid #485342;
+}
+.subscribeoremail{
+    background-color:#485342;
+    display: flex;
+    overflow: hidden;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.subtext{
+    padding: 120px 0px;
+}
+.subtext h2{
+    display: flex;
+    flex-direction: column;
+    font-family: 'Jacques Francois', serif;  
+    color: white;
+    font-weight: 400;
+    font-size: 48px;  
+}
+.aboutsub{
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+    color: white;
+    font-weight: 400;
+    line-height: 1.8;
+    margin: 10px 0px;
+}
+.emailsection{
+    display: flex;
+    flex-direction: column;
+    padding: 120px 0px;
+}
+.emailsection label{
+    font-size: 16px;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    margin: 5px 0px;
+}
+
+input[type=text]{
+    font-size: 16px;
+    color: rgb(0, 0, 0);
+    font-family: 'Poppins', sans-serif;
+    background-color: rgba(245,248,251,.6);
+    width: 530px;
+    height: 50px;
+    outline: none;
+    border: none;
+    padding: 0px 56px 0px 16px ;
+}
+input[type=submit]{
+    background: none;
+    color: white;
+    border: 3px solid white;
+    border-radius: 20px;
+    font-size: 14px;
+    font-weight: 600;
+    letter-spacing: 0.22em;
+    width: 140px;
+    height: 40px;
+    margin: 25px 0px;
+    overflow: hidden;
+    cursor: pointer;
+    transition-duration: 0.3s;
+}
+input[type=submit]:hover{
+    color: gray;
+    border: 3px solid #808080;
+}
+footer{
+    background-color: #c7cec9;
+    overflow: hidden;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+#logo1{
+    height: 10%;
+    color: #2f3a29;
+}
+.list{
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    margin: 100px 0px;
+    
+}
+.list a{
+    font-family: 'Poppins', sans-serif;
+    color: #2f3a29;
+    font-size: 14px;
+} 
+.links{
+    display: flex;
+    flex-direction: column;
+}
+.links a{
+    font-family: 'Poppins', sans-serif;
+    color: #2f3a29;
+    font-size: 14px;
+    text-decoration: none;
+    margin: 5px 0px;
+}
+
+#twitter, #facebook, #instagram{
+    width: 30px;
+    margin: 5px;
+}
+@media screen and (max-width: 1096px) {
+    
+    .para p, .para-1{
+        text-align: center;
+    }
+    .para{
+        width: 100%;
+    }
+}
+   
+@media screen and (max-width: 930px) {
+    
+    .line1 h2{
+        font-size: 24px;
+    }
+    .line2 h1{
+        font-size: 56px;
+    }
+   .paragraph3 p{
+    width: 80%;
+    }
+    
+}
+
+
