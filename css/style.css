@@ -24,10 +24,15 @@
     padding: -1px 20px;
     border-radius: 5px;
     
+    
 }
 .dropnav-contant a {
   padding: 12px 16px;
   display: block;
+}
+.fa{
+    margin-left: 5px;
+    transition-duration: .5s;
 }
 .dropbtn1{
     background: none;
@@ -38,13 +43,10 @@
     margin: 0px -40px;
 }
 .dropbtn1:hover {
-    background: none;
+    transition-duration: 3s;
     border: none;
     color: white;
-    font-weight: 500;
-    font-size: 14px;
-    margin: -10px -40px;
-}
+    }
 
 .dropnav:hover .dropnav-contant {
    display: block;
@@ -64,6 +66,7 @@
     height: 100px;
     align-items: center;
     width: 100%;
+    transition-duration: .5s;
 }
 .navlist{
     display: flex;
@@ -488,13 +491,34 @@ footer{
     .navlist{
         display: none;
     }
-    #logo{
-        height: 20px;
-    }
     
+    .navlist a{
+        margin: 0px 0px;
+    }
+    .navlist li{
+        padding: 10px 0px;
+    }
+    #logo{
+        height: 25px;
+    }
+    .dropnav-contant{
+        background-color: #2f3a29;
+        padding: 0px 20px;
+    }
     .burgar{
         display: block;
     }
+    .hnav{
+        text-align: center;
+        flex-direction: column;
+        height: 300px;
+        background-color:  #485342;
+        z-index: 1;
+    }
+    .vclass{
+        display: block;
+    }
+    
 }
 
 
