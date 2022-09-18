@@ -439,7 +439,7 @@ footer{
     width: 30px;
     margin: 5px;
 }
-.burgar{
+.burger{
     cursor: pointer;
     display: none;
 }
@@ -505,7 +505,7 @@ footer{
         background-color: #2f3a29;
         padding: 0px 20px;
     }
-    .burgar{
+    .burger{
         display: block;
     }
     .hnav{
